@@ -1,12 +1,18 @@
 {
-  "name": "my-app",
+  "name": "abc",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "apollo-boost": "^0.4.7",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.6.0",
+    "graphql-tag": "^2.10.3",
     "react": "^16.12.0",
+    "react-apollo": "^3.1.3",
     "react-dom": "^16.12.0",
     "react-scripts": "3.3.1"
   },
@@ -30,5 +36,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
+ 
 }
