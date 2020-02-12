@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when login components will change 1`] = `
+<form
+  className="login"
+>
+  <label>
+    Username
+  </label>
+  <input
+    id="email123"
+    name="email"
+    onChange={[Function]}
+    placeholder="mail.."
+    type="text"
+  />
+  <br />
+  <br />
+  <label>
+    Password
+  </label>
+  <input
+    id="password"
+    name="password"
+    onChange={[Function]}
+    placeholder="password.."
+    type="password"
+  />
+  <br />
+  <br />
+  <label>
+    Date
+  </label>
+  <input
+    readOnly={false}
+    required={true}
+    type="date"
+  />
+  <button
+    className="button"
+    disabled={true}
+    id="01"
+  >
+    Submit
+  </button>
+</form>
+`;
