@@ -23,7 +23,7 @@ class Login extends React.Component {
      <label>Username</label>
      <input id='email123' onChange={this.handleInputChange} name='email' type='text' placeholder="mail.." /><br/><br/>
      <label>Password</label>
-     <input id='password' onChange={this.handleInputChange} name='password' type='password' placeholder="password.." /><br/><br/>
+     <input id='password' onChange={this.handleInputChange} name='password' type='password' placeholder="password.." readOnly={false}/><br/><br/>
      <label>Date</label>
      <input type="date" readOnly={false} required={true}/>
      <button id='01' disabled={true}  className="button">Submit</button>

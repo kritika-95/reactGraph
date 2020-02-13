@@ -24,6 +24,7 @@ exports[`when login components will change 1`] = `
     name="password"
     onChange={[Function]}
     placeholder="password.."
+    readOnly={false}
     type="password"
   />
   <br />
